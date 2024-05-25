@@ -1,0 +1,22 @@
+.buttonsContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 300px; 
+    gap: 1px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.buttonsContainer :not(:nth-child(4n)) {
+    background-color:#f2f2f2;
+}
+
+.buttonsContainer :nth-child(17) {
+    border-bottom-left-radius: 20px;
+    grid-column: span 2;
+}
+
+.buttonsContainer > :last-child{
+    border-bottom-right-radius: 20px;
+}

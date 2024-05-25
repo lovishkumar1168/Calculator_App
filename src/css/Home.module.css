@@ -1,0 +1,12 @@
+
+.calculatorContainer{
+    background-color: gray;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 100px auto;
+    width: 25%;
+    box-sizing: border-box;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}

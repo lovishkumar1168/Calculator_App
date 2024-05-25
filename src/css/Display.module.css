@@ -1,0 +1,17 @@
+.displayContainer{
+    background-color: #4d94ff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+    height : 150px;
+}
+
+.displayContainer p {
+    text-align: right;
+    font-size: 4rem;
+    color: white;
+}
